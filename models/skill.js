@@ -29,6 +29,6 @@ function create(skill) {
 
 function deleteOne(id) {
     id = parseInt(id);
-    const idx = todos.findIndex(t => t.id === id);
-    todos.splice(idx, 1);
+    const idx = skills.findIndex(t => t.id === id);
+    skills.splice(idx, 1);
   }
